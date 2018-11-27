@@ -1,0 +1,110 @@
+\documentclass{beamer}
+\usepackage[utf8]{inputenc}
+\usepackage[spanish]{babel}
+\usepackage{default}
+\usepackage{multicol}
+\usepackage{wrapfig}
+\usepackage{ragged2e}
+\usepackage{subfigure}
+\justifying
+
+\setbeamercovered{transparent}
+\setbeamertemplate{caption}[numbered]
+\setbeamertemplate{bibliography item}[text]
+
+%\textheight=31cm
+%\textwidth=10cm
+%\topmargin=-1cm
+%\oddsidemargin=0cm
+%\parindent=10mm
+\usetheme{Pittsburgh}
+\usecolortheme{dolphin}
+\useinnertheme{rectangles}
+
+\makeatletter
+\setbeamertemplate{frametitle}
+{
+	\ifbeamercolorempty[bg]{frametitle}{}{\nointerlineskip}%
+	\@tempdima=\textwidth%
+	\advance\@tempdima by\beamer@leftmargin%
+	\advance\@tempdima by\beamer@rightmargin%
+	\pgfsetfillopacity{.7}       %<------ fix filling opacity
+	\begin{beamercolorbox}[sep=0.4cm,left,wd=\the\@tempdima]{frametitle}
+		\usebeamerfont{frametitle}%
+		\vbox{}\vskip-1ex%
+		\if@tempswa\else\csname beamer@fteleft\endcsname\fi%
+		\strut\pgfsetfillopacity{1}\insertframetitle\strut\par%  <---- text opacity
+		{%
+			\ifx\insertframesubtitle\@empty%
+			\else%
+			{\usebeamerfont{framesubtitle}\usebeamercolor[fg]{framesubtitle}\insertframesubtitle\strut\par}%
+			\fi
+		}%
+		\vskip-1ex%
+		\if@tempswa\else\vskip-.3cm\fi% set inside beamercolorbox... evil here...
+	\end{beamercolorbox}%
+}
+\makeatother
+
+\addtobeamertemplate{navigation symbols}{}{%
+	\usebeamerfont{footline}%
+	\usebeamercolor[fg]{footline}%
+	\hspace{1em}%
+	\insertframenumber/\inserttotalframenumber
+}
+
+\title{\colorbox{white}{Tarjeta Smart House para una Habitación}}
+\subtitle{\colorbox{white}{Sustentación}}
+\author{\colorbox{white}{John Alejandro Barahona Pineda \and César Andres Tejada Torres}}
+\institute{\colorbox{white}{Universidad del Quindío}\\
+\colorbox{white}{Armenia, Quindío}}
+\date{\colorbox{white}{\today}}
+
+\setbeamertemplate{background canvas}{\includegraphics[width=\paperwidth,height=\paperheight]{Imagenes/portada.jpg}}
+
+\begin{document}
+	\frame{\titlepage}
+
+	\setbeamertemplate{background canvas}{\includegraphics[width=\paperwidth,height=\paperheight]{Imagenes/fondo2.jpg}}
+	
+	\begin{frame}
+		\frametitle{Contenido}
+			\tableofcontents[hideallsubsections]
+	\end{frame}
+
+%\begin{frame}
+%	\begin{block}{Titulo}
+%		Contenido
+%	\end{block}
+%\end{frame}
+
+	 	\input{Introduccion}
+ 
+ 	\begin{frame}
+		\input{Objetivos}
+ 	\end{frame}
+ 	
+% 	\input{MarcoTeorico}
+ 	
+% 	\input{Desarrollo}
+
+%	\input{Resultados_Analisis}
+
+	\input{Conclusiones}
+
+	\input{Trabajos_Futuros}
+ 
+\begin{frame}[allowframebreaks]
+\frametitle{Bibliografía}
+	\bibliographystyle{unsrt}
+	\bibliography{BibliMSc}
+\end{frame}
+ 
+ %End Frame
+ \setbeamertemplate{background canvas}{\includegraphics[width=\paperwidth,height=\paperheight]{Imagenes/final.jpg}}
+ \begin{frame}
+
+ \end{frame}
+
+
+\end{document}
