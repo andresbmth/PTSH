@@ -47,42 +47,40 @@
 \headcommand {\beamer@subsectionentry {0}{4}{3}{12}{Hardware}}
 \headcommand {\slideentry {4}{3}{1}{12/12}{Hardware}{0}}
 \headcommand {\beamer@framepages {12}{12}}
-\headcommand {\slideentry {4}{3}{2}{13/13}{Hardware}{0}}
+\headcommand {\beamer@subsectionpages {12}{12}}
+\headcommand {\beamer@subsectionentry {0}{4}{4}{13}{Prueba Beta Cerrada}}
+\headcommand {\slideentry {4}{4}{1}{13/13}{Prueba Beta Cerrada}{0}}
 \headcommand {\beamer@framepages {13}{13}}
-\headcommand {\beamer@subsectionpages {12}{13}}
-\headcommand {\beamer@subsectionentry {0}{4}{4}{14}{Prueba Beta Cerrada}}
-\headcommand {\slideentry {4}{4}{1}{14/14}{Prueba Beta Cerrada}{0}}
+\headcommand {\beamer@sectionpages {8}{13}}
+\headcommand {\beamer@subsectionpages {13}{13}}
+\headcommand {\sectionentry {5}{Conclusiones}{14}{Conclusiones}{0}}
+\headcommand {\slideentry {5}{0}{1}{14/14}{}{0}}
 \headcommand {\beamer@framepages {14}{14}}
-\headcommand {\beamer@sectionpages {8}{14}}
-\headcommand {\beamer@subsectionpages {14}{14}}
-\headcommand {\sectionentry {5}{Conclusiones}{15}{Conclusiones}{0}}
-\headcommand {\slideentry {5}{0}{1}{15/15}{}{0}}
+\headcommand {\slideentry {5}{0}{2}{15/15}{}{0}}
 \headcommand {\beamer@framepages {15}{15}}
-\headcommand {\slideentry {5}{0}{2}{16/16}{}{0}}
+\headcommand {\slideentry {5}{0}{3}{16/16}{}{0}}
 \headcommand {\beamer@framepages {16}{16}}
-\headcommand {\slideentry {5}{0}{3}{17/17}{}{0}}
+\headcommand {\slideentry {5}{0}{4}{17/17}{}{0}}
 \headcommand {\beamer@framepages {17}{17}}
-\headcommand {\slideentry {5}{0}{4}{18/18}{}{0}}
+\headcommand {\slideentry {5}{0}{5}{18/18}{}{0}}
 \headcommand {\beamer@framepages {18}{18}}
-\headcommand {\slideentry {5}{0}{5}{19/19}{}{0}}
+\headcommand {\slideentry {5}{0}{6}{19/19}{}{0}}
 \headcommand {\beamer@framepages {19}{19}}
-\headcommand {\slideentry {5}{0}{6}{20/20}{}{0}}
+\headcommand {\slideentry {5}{0}{7}{20/20}{}{0}}
 \headcommand {\beamer@framepages {20}{20}}
-\headcommand {\slideentry {5}{0}{7}{21/21}{}{0}}
+\headcommand {\beamer@sectionpages {14}{20}}
+\headcommand {\beamer@subsectionpages {14}{20}}
+\headcommand {\sectionentry {6}{Trabajos Futuros}{21}{Trabajos Futuros}{0}}
+\headcommand {\slideentry {6}{0}{1}{21/21}{}{0}}
 \headcommand {\beamer@framepages {21}{21}}
-\headcommand {\beamer@sectionpages {15}{21}}
-\headcommand {\beamer@subsectionpages {15}{21}}
-\headcommand {\sectionentry {6}{Trabajos Futuros}{22}{Trabajos Futuros}{0}}
-\headcommand {\slideentry {6}{0}{1}{22/22}{}{0}}
+\headcommand {\slideentry {6}{0}{2}{22/22}{}{0}}
 \headcommand {\beamer@framepages {22}{22}}
-\headcommand {\slideentry {6}{0}{2}{23/23}{}{0}}
+\headcommand {\slideentry {6}{0}{3}{23/23}{}{0}}
 \headcommand {\beamer@framepages {23}{23}}
-\headcommand {\slideentry {6}{0}{3}{24/24}{}{0}}
+\headcommand {\slideentry {6}{0}{4}{24/24}{}{0}}
 \headcommand {\beamer@framepages {24}{24}}
-\headcommand {\slideentry {6}{0}{4}{25/25}{}{0}}
-\headcommand {\beamer@framepages {25}{25}}
-\headcommand {\beamer@partpages {1}{25}}
-\headcommand {\beamer@subsectionpages {22}{25}}
-\headcommand {\beamer@sectionpages {22}{25}}
-\headcommand {\beamer@documentpages {25}}
-\headcommand {\gdef \inserttotalframenumber {25}}
+\headcommand {\beamer@partpages {1}{24}}
+\headcommand {\beamer@subsectionpages {21}{24}}
+\headcommand {\beamer@sectionpages {21}{24}}
+\headcommand {\beamer@documentpages {24}}
+\headcommand {\gdef \inserttotalframenumber {24}}
