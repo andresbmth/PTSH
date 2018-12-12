@@ -1,4 +1,4 @@
-\documentclass{beamer}
+\documentclass[aspectratio=169]{beamer}
 \usepackage[utf8]{inputenc}
 \usepackage[spanish]{babel}
 \usepackage{default}
@@ -86,19 +86,13 @@
  	
 % 	\input{MarcoTeorico}
  	
-% 	\input{Desarrollo}
+ 	\input{Desarrollo}
 
-%	\input{Resultados_Analisis}
+	\input{Resultados_Analisis}
 
 	\input{Conclusiones}
 
 	\input{Trabajos_Futuros}
- 
-\begin{frame}[allowframebreaks]
-\frametitle{Bibliografía}
-	\bibliographystyle{unsrt}
-	\bibliography{BibliMSc}
-\end{frame}
  
  %End Frame
  \setbeamertemplate{background canvas}{\includegraphics[width=\paperwidth,height=\paperheight]{Imagenes/final.jpg}}
@@ -106,5 +100,26 @@
 
  \end{frame}
 
+\setbeamertemplate{background canvas}{\includegraphics[width=\paperwidth,height=\paperheight]{Imagenes/fondo2.jpg}}
+
+\begin{frame}[allowframebreaks]
+\frametitle{Bibliografía}
+\bibliographystyle{unsrt}
+\bibliography{BibliMSc}
+\end{frame}
 
 \end{document}
+
+%\begin{figure}[!]
+%	\centering
+%	\caption{\tiny Sensor DHT11. Tomado de: \cite{DHT11}}
+%	\label{fig:dht11}
+%	\includegraphics[width=0.4\linewidth]{Imagenes/dht11}
+%\end{figure}
+
+%\begin{wrapfigure}{r}{0.5\linewidth}
+%	\centering
+%	\caption{Vista Usuario Administrador. [Imagen Propia]}
+%	\label{fig:adminview}
+%	\includegraphics[width=\linewidth]{Imagenes/Admin_view}
+%\end{wrapfigure}
