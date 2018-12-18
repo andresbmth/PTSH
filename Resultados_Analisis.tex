@@ -3,16 +3,20 @@
 \begin{frame}[t]
 \frametitle{Resultados y Análisis}
 \framesubtitle{Aplicación Web}
-\begin{columns}[t]
-	\column[t]{0.5\linewidth}
+
 	\begin{figure}[!]
 		\centering
 		\caption{Vista Usuario Administrador. [Imagen Propia]}
 		\label{fig:adminview}
-		\includegraphics[width=1.1\linewidth]{Imagenes/Admin_view}
+		\includegraphics[width=\linewidth]{Imagenes/Admin_view}
 	\end{figure}
+
+\end{frame}	
+
+\begin{frame}[t]
+\frametitle{Resultados y Análisis}
+\framesubtitle{Aplicación Web}
 	
-	\column[t]{0.5\linewidth}
 	\begin{figure}[!]
 		\centering
 		\caption{Vista Usuario de Casa. [Imagen Propia]}
@@ -20,13 +24,12 @@
 		\includegraphics[width=\linewidth]{Imagenes/UserH_view}
 	\end{figure}
 
-\end{columns}
 \end{frame}
 
 \begin{frame}[t]
 \frametitle{Resultados y Análisis}
 \framesubtitle{Aplicación Web}
-\begin{columns}
+\begin{columns}[t]
 	\column[t]{0.6\linewidth}
 	\begin{figure}[!]
 		\centering
@@ -40,7 +43,7 @@
 		\centering
 		\caption{Vista para añadir reglas [Imagen Propia]}
 		\label{fig:rulesview}
-		\includegraphics[width=0.5\linewidth]{Imagenes/rules_view}
+		\includegraphics[width=0.7\linewidth]{Imagenes/rules_view}
 	\end{figure}
 \end{columns}
 \end{frame}
@@ -72,7 +75,10 @@
 	\includegraphics[width=\linewidth]{Imagenes/conexion}
 \end{figure}
 	\column[t]{0.5\linewidth}
-	
+
+\begin{table}[H]
+	\begin{center}
+		\caption{Resumen Aplicación.}
 	\begin{tabular}{|c|c|}
 		\hline 
 		Tareas & 12 \\ 
@@ -86,6 +92,8 @@
 		Tiempo petición HTTP & 1s \\ 
 		\hline 
 	\end{tabular} 
+\end{center}
+\end{table}
 	
 \end{columns}
 \end{frame}
@@ -116,41 +124,40 @@
 \begin{frame}[t]
 \frametitle{Resultados y Análisis}
 \framesubtitle{Prueba Beta Cerrada}
-\footnotesize %Colocar el enfoque de las preguntas para dar claridad.
-La prueba se realiza a quince personas, entre los cuales algunos son estudiantes de ingería electrónica y personas ajenas a este tipo de escenarios, los resultados de la prueba se consignan en la tabla \ref{table:enc}.
-
+\footnotesize 
+\begin{columns}
+	\column{\dimexpr\paperwidth-10pt}
 \begin{table}[H]
 	\begin{center}
 		\caption{Resultados por pregunta.}
 		\label{table:enc}
-		\begin{tabular}{|c|c|}
+		\begin{tabular}{|p{11cm}|c|c|}
 			\hline 
-			\textbf{Número de la Pregunta} & \textbf{Promedio} \\ 
+			\textbf{Número de la Pregunta} & \textbf{Promedio} & \textbf{Desv. Est.}\\ 
 			\hline 
-			1 & 4.5\\ 
+			{\tiny El método para conectar la tarjeta a Internet por medio de Wi-Fi es sencillo de realizar.} & 4.5 & 0.52\\ 
 			\hline 
-			2 & 4.8\\ 
+			{\tiny La interfaz para seleccionar la red e ingresar las credenciales es fácil de utilizar.} & 4.8 & 0.41\\ 
 			\hline 
-			3 & 4.5\\ 
+			{\tiny En caso del cambio de nombre o contraseña de su red Wi-Fi, es fácil volver a configurar la tarjeta para que esta se conecte de nuevo.} & 4.5 & 0.74\\ 
 			\hline 
-			4 & 5.0\\ 
+			{\tiny El inicio de sesión en la pagina web es claro.} & 5.0 & 0.00\\ 
 			\hline 
-			5 & 4.9\\ 
+			{\tiny En la aplicación web, los datos de los sensores y estados de las salidas se presentan de una manera clara y entendible.} & 4.9 & 0.35\\ 
 			\hline 
-			6 & 4.9\\ 
+			{\tiny Encender o apagar un dispositivo o salida es sencillo y se presenta de forma clara.} & 4.9 & 0.35\\ 
 			\hline 
-			7 & 4.3\\ 
+			{\tiny El tiempo de respuesta después de encender o apagar un dispositivo desde la aplicación es bueno.} & 4.3 & 0.80\\ 
 			\hline 
-			8 & 4.3\\ 
+			{\tiny Las reglas para los dispositivos o salidas son fáciles de configurar y eliminar.} & 4.3 & 0.82\\ 
 			\hline 
-			9 & 4.8\\ 
+			{\tiny La aplicación web es fácil de usar.} & 4.8 & 0.41\\ 
 			\hline 
-			\textbf{Total} & \textbf{4.7}\\ 
+			\textbf{Total} & \textbf{4.7} & \textbf{0.24}\\ 
 			\hline 
 		\end{tabular} 
 	\end{center}
 \end{table}
-
-%En resumen, la aplicación recibe una calificación de 4.7, por lo tanto se puede decir que las funcionalidades requeridas están programadas de una manera adecuada y simple para que el usuario disponga de ellas, pero es posible mejorarlas con el objetivo de que sean mucho más intuitivas para el usuario y que no se le presenten dudas al momento de usarla. Conforme a las observaciones obtenidas durante la prueba se han modificado algunas partes del sistema, que no tienen un impacto significativo sobre los objetivos ni alcances propuesto en este trabajo.\\
+\end{columns}
 
 \end{frame}

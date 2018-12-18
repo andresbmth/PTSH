@@ -6,6 +6,7 @@
 \usepackage{wrapfig}
 \usepackage{ragged2e}
 \usepackage{subfigure}
+\usepackage[absolute,overlay]{textpos}
 \justifying
 
 \setbeamercovered{transparent}
@@ -55,7 +56,8 @@
 
 \title{\colorbox{white}{Tarjeta Smart House para una Habitación}}
 \subtitle{\colorbox{white}{Sustentación}}
-\author{\colorbox{white}{John Alejandro Barahona Pineda \and César Andres Tejada Torres}}
+\author{\colorbox{white}{John Alejandro Barahona Pineda \and César Andres Tejada Torres}
+\colorbox{white}{Director: César Augusto Álvarez Gaspar}}
 \institute{\colorbox{white}{Universidad del Quindío}\\
 \colorbox{white}{Armenia, Quindío}}
 \date{\colorbox{white}{\today}}
@@ -85,17 +87,17 @@
  	\begin{frame}
 		\input{Objetivos}
  	\end{frame}
- 
- 	\begin{frame}
-	 	\begin{figure}
-	 		\centering
-	 		\caption{Diagrama Solución IoT.[Imagen Propia]}
-	 		\label{fig:diag}
-	 		\includegraphics[width=0.4\linewidth]{Imagenes/Diagramas}
-	 	\end{figure} 	
- 	\end{frame}
  	
  	\input{MarcoTeorico}
+
+ 	\begin{frame}
+		\begin{figure}
+			\centering
+			\caption{Diagrama Solución IoT.[Imagen Propia]}
+			\label{fig:diag}
+			\includegraphics[width=0.4\linewidth]{Imagenes/Diagramas}
+		\end{figure} 	
+	\end{frame}
  	
  	\input{Desarrollo}
 
@@ -115,7 +117,13 @@
 
 \begin{frame}[allowframebreaks]
 \frametitle{Bibliografía}
-\bibliographystyle{unsrt}
+\nocite{Asthon2009}
+\nocite{Behan2013}
+\nocite{HTML5}
+\nocite{IdT}
+\nocite{MVC1}
+\nocite{PB}
+\bibliographystyle{IEEEtran.bst}
 \bibliography{BibliMSc}
 \end{frame}
 
